@@ -4,6 +4,8 @@ A comprehensive AI-powered platform for analyzing fintech startup compliance aga
 
 ![Platform Overview](https://img.shields.io/badge/Status-Production%20Ready-green) ![Python](https://img.shields.io/badge/Python-3.11-blue) ![React](https://img.shields.io/badge/React-18-blue) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
+> **📋 Template Platform**: This is a generic, reusable platform designed to work with **any fintech startup or financial services company**. Simply upload your own business plan, legal structure, compliance policies, and regulatory documents to get a customized compliance analysis. No company-specific configuration required.
+
 ## 🎯 Overview
 
 This platform enables fintech startups to:
@@ -66,10 +68,15 @@ fintech-regulatory-readiness/
 │   ├── Dockerfile            # Frontend container config
 │   ├── nginx.conf            # Nginx configuration
 │   └── tailwind.config.js    # TailwindCSS configuration
+├── sample-documents/         # Example documents for testing (fictional company)
+│   ├── SAMPLE-BUSINESS-PLAN.txt
+│   └── SAMPLE-COMPLIANCE-POLICY.txt
 ├── docker-compose.yml        # Multi-container orchestration
 ├── .env.example              # Root environment template
 └── README.md                 # This file
 ```
+
+**Note**: The `sample-documents/` folder contains fictional example documents for testing purposes. The platform works with any company's actual documents - simply upload your own files.
 
 ## 🚀 Quick Start
 

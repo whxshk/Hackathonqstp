@@ -97,18 +97,18 @@ const UploadPage = ({ onUploadComplete, onBack }: UploadPageProps) => {
         <div className="card mb-8">
           <h2 className="text-2xl font-bold mb-4">Upload Your Documents</h2>
           <p className="text-gray-600 mb-4">
-            Please upload the following documents in DOCX or PDF format:
+            Upload your <strong>Business Plan, Legal Structure, Compliance Policies, and Regulatory References</strong> in DOCX or PDF format:
           </p>
           <ul className="list-disc list-inside space-y-2 text-gray-600">
-            <li>Business Plan</li>
-            <li>Internal Compliance Policy (especially AML/CFT)</li>
-            <li>Legal Structure Document</li>
-            <li>Regulatory Circular or Licensing Pathways Document</li>
+            <li><strong>Business Plan</strong> - Your company overview, business model, and operations</li>
+            <li><strong>Legal Structure Document</strong> - Corporate registration, shareholder agreements, governance</li>
+            <li><strong>Compliance Policies</strong> - AML/CFT policy, data protection, customer verification procedures</li>
+            <li><strong>Regulatory References</strong> - Any QCB circulars, licensing requirements, or regulatory documentation</li>
           </ul>
           <div className="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
             <p className="text-sm text-blue-800">
-              <strong>Note:</strong> All documents are processed in-memory and not stored permanently.
-              Your data remains confidential.
+              <strong>Privacy Note:</strong> All documents are processed in-memory and not stored permanently.
+              Your data remains confidential and secure. We support any fintech startup or financial services company.
             </p>
           </div>
         </div>
